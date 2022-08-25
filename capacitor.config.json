@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.energy",
+    "appName": "energy",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+}

@@ -1,0 +1,42 @@
+.wrapper{
+    padding: 20px;
+}
+.timer{
+
+}
+
+.round_text{
+    padding: 10px;
+}
+
+.result_round{
+    margin-bottom:10px;
+}
+
+
+.table_score{
+    margin-bottom: 20px;
+	
+	border-collapse: collapse;
+    margin: auto;
+}
+
+.table_score th {
+	font-weight: bold;
+	padding: 10px;
+	background: #00C8C1;
+    color:#fff;
+	font-weight: 400;
+}
+.table_score td {
+	padding:5px;
+    background: #00c8c11c;
+}
+
+.team_td{
+    text-align: left;
+}
+
+.active_row_team{
+    background-color: #00c8c147;
+}

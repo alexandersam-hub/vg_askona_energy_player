@@ -1,0 +1,19 @@
+.back{
+    cursor: pointer;
+    background-color: #00C8C1;
+    color: #fff;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px auto; 
+}
+
+.back img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.back span{
+    padding-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}

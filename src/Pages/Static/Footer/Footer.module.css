@@ -1,0 +1,43 @@
+.wrapper{
+    height: 40px;
+    background-color: rgba(0, 200, 193, 0.8);
+}
+
+.wrapper_score{
+    display: inline-block;
+    height: 40px;
+}
+
+.score_text{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.battery_zero,
+.battery_low,
+.battery_half,
+.battery_full,
+.battery{
+    display: inline-block;   
+   
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+/* .battery_full{
+    height: 20px;
+} */
+.img_lightning{
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 12px;
+    margin-left: -5px;
+}
+
+.team_name{
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}

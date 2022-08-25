@@ -1,0 +1,32 @@
+.wrapper{
+    padding: 20px;
+}
+
+.back{
+    cursor: pointer;
+    background-color: #00C8C1;
+    color: #fff;
+    width: 200px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.back img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.back span{
+    padding-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.qr_reader{
+    width: 90%;
+}
+
+.wrapper_foto{
+    /* margin-top: calc(100vh / 2 - 280px); */
+    margin-top: 20px;
+}

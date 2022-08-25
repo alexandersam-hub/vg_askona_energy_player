@@ -1,0 +1,93 @@
+.content{
+    min-height: calc(100vh - 110px);
+}
+.arrowImgUp,
+.arrowImgDown{
+    width: 60px;
+    position: fixed;
+    bottom:60px;
+    right: 20px;
+    -webkit-animation: shadow 1.5s linear reverse infinite;
+    animation: shadow 1.5s linear reverse infinite;
+    border-radius: 40px;
+}
+
+.arrowImgUp{
+    transform: rotate(180deg);
+}
+.count_task{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn_task_choice_wrapper{
+    text-align: left;
+    width: calc(80% + 40px) ;
+    max-width: 600px;
+    margin: auto;
+
+}
+.btn_task_choice_active,
+.btn_task_choice{
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right:1px ;
+    background: linear-gradient(to top, #c1c1c1, rgb(255, 255, 255));
+    color: black;
+    padding: 1px 10px;
+    font-weight: 400;
+    position: relative;
+    top:2px;
+    right: 2px;
+    border-top: 2px solid #00C8C1;
+    border-left: 2px solid #00C8C1;
+    border-right: 2px solid #00C8C1;
+    cursor: pointer;
+}
+
+.btn_task_choice_active{
+    background:rgb(255, 255, 255);
+    color: black;
+
+}
+
+.wrapper_team{
+    margin: 0 auto 20px 20px;
+    padding-top: 20px;
+    text-align: left;
+    
+}
+.input_box_answer{
+    background: #FFFFFF;
+    border: 2px solid  #00C8C1;
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+/* 
+@keyframes shadow {
+    from {box-shadow: 0 0 2 #007470;}
+    50% {box-shadow: 0 0 40px #007470;}
+    to {box-shadow: 0 0 2 #007470;}
+    } */
+
+    .team_name{
+
+    }
+    .round_count{
+    margin-top: 10px;
+    }
+
+.wrapepr_ansver{
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #00C8C1;
+    width: 80%;
+    max-width: 600px;
+    border-radius:10px;
+    background:rgb(255, 255, 255);
+    }

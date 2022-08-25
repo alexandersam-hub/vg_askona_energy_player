@@ -1,0 +1,57 @@
+.wrapper{
+    padding: 20px;
+}
+.back{
+    cursor: pointer;
+    background-color: #00C8C1;
+    color: #fff;
+    width: 200px;
+    border-radius: 20px;
+    margin: auto; 
+}
+
+.back img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.back span{
+    padding-left: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.title{
+    margin: 20px auto 10px;
+}
+
+.table_score{
+    margin-bottom: 20px;
+	
+	border-collapse: collapse;
+    margin: auto;
+}
+
+.table_score th {
+	font-weight: bold;
+	padding: 10px;
+	background: #00C8C1;
+    color:#fff;
+	font-weight: 400;
+}
+
+.table_score td {
+	padding:10px;
+    background: #00c8c11c;
+}
+.active_team_name,
+.team_name{
+    text-align: left;
+}
+.active_row_team{
+    background-color: #00c8c147;
+}
+
+.row_team{
+
+}

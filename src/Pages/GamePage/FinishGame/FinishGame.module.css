@@ -1,0 +1,35 @@
+.wrapper{
+    padding:40px;
+}
+.team_name{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.game_name{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.final_text,
+.text{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.767);
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    max-width: 600px;
+}
+.final_text{
+    margin-top: 10px;
+}
+
+.title{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.767);
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    max-width: 600px;
+    margin-bottom: 10px;
+}

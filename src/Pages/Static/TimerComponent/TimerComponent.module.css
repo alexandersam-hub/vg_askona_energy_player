@@ -1,0 +1,31 @@
+.wrapper{
+    
+    text-align: left        ;
+}
+
+.text_round_close{
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
+    line-height: 26px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 800;  
+}
+
+.timer{
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+    font-style: normal;
+    font-weight: 700;
+    border: 2px solid  #00C8C1;
+}

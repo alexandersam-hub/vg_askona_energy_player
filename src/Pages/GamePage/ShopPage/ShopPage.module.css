@@ -1,0 +1,92 @@
+.wrapper{
+    padding: 20px;
+    margin: auto;
+}
+.back{
+    cursor: pointer;
+    background-color: #00C8C1;
+    color: #fff;
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 auto 10px auto; 
+}
+.wrapper_table{
+  
+    overflow-x: auto;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+.prices_table{
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    /* border: 2px solid #00C8C1; */
+	border-collapse: collapse;
+    margin: auto;
+}
+
+.prices_table th {
+	font-weight: bold;
+	padding: 10px;
+	background: #00C8C1;
+    color:#fff;
+	font-weight: 400;
+}
+
+.prices_table td {
+	padding:10px;
+    font-size: 18px;
+    background: #00c8c11c;
+}
+
+.row1{
+    background-color: #00c8c147;
+
+}
+.row2{
+    background-color: #cafffd47;
+}
+
+.shop_name{
+    font-size: 30px;
+    font-weight: 800;
+}
+.shop_words{
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+}
+.button_buy,
+.active_button_buy{
+    width: 150px;
+    color: #fff;
+    background-color: #00C8C1;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.button_buy{
+    color: rgba(255, 255, 255, 0.596);
+    background-color: #00c8c144;
+}
+
+.empty{
+    text-align: left;
+}
+
+@media(max-width:400px){
+    .prices_table th {
+        font-weight: bold;
+        padding: 10px;
+        background: #00C8C1;
+        color:#fff;
+        font-weight: 400;
+    }
+    
+    .prices_table td {
+        padding:5px;
+        font-size: 14px;
+        background: #00c8c11c;
+    }
+  }
